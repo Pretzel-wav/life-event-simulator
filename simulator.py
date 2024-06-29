@@ -74,6 +74,7 @@ def _simulate_field(df:pd.DataFrame, field:Attribute, tracking_col:str) -> pd.Da
     Args:
     df (pd.DataFrame): The DataFrame to simulate on.
     field (Attribute): The field to simulate.
+    tracking_col (str): The column name to use for tracking which fields were altered during the simulation
 
     Returns:
     pd.DataFrame: The simulated DataFrame.
